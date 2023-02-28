@@ -1,11 +1,8 @@
 moveit_setup_assistant_config:
   URDF:
     package: ur_description
-    relative_path: urdf/ur3.xacro
-    xacro_args: ""
+    relative_path: urdf/ur3_robot.urdf.xacro
   SRDF:
     relative_path: config/ur3.srdf
   CONFIG:
-    author_name: Felix Exner
-    author_email: felix@fexner.de
-    generated_timestamp: 1611154369
+    generated_timestamp: 1438427891
